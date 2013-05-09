@@ -32,8 +32,8 @@ int main(int argc, char *argv[])
     20, // number of particles
     2000.0, // maximum velocity
     wts, // vector of weights for each iteration
-    2, // particle constant
-    2, // group constant
+    2, // personal influence constant
+    2, // group influence constant
     4, // every 4 iterations, communication strategy 1
     8, // every 8 iterations, communication strategy 2
     2000 // 2000 iterations
@@ -44,7 +44,7 @@ int main(int argc, char *argv[])
   for (double x: ret.first) {
     std::cout << x << " ";
   }
-  std::cout << "]\n";
+  std::cout << "]'\n";
 
   // print f(x*)
   std::cout << "f(x*) = " << ret.second << std::endl;
