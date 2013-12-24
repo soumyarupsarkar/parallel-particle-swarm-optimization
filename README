@@ -1,0 +1,12 @@
+An (incomplete) particle swarm optimization library with minimal
+dependencies.
+
+See ./demo/demo.cpp to see how to use it, and ./docs/report.pdf for an
+explanation of the algorithm (based on a paper by Chang et al: "A
+Guaranteed Global Convergence Particle Swarm Optimization Algorithm
+with Communication Strategies").
+
+This was part of a final project for an optimization course, and it is
+not meant to be used in practice; use PSwarm instead:
+http://www.norg.uminho.pt/aivaz/pswarm/ .
+
